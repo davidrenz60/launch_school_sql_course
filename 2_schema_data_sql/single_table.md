@@ -35,11 +35,11 @@ CREATE TABLE birds (
 
  5.
  ```sql
- 	INSERT INTO birds VALUES('Spotted Towhee', 21.6, 26.7, Emberizidae, false);
-  INSERT INTO birds VALUES ('American Robin', 25.5, 36.0, 'Turdidae', false);
-  INSERT INTO birds VALUES ('Greater Koa Finch', 19.0, 24.0, 'Fringillidae', true);
-  INSERT INTO birds VALUES ('Carolina Parakeet', 33.0, 55.8, 'Psittacidae', true);
-  INSERT INTO birds VALUES ('Common Kestrel', 35.5, 73.5, 'Falconidae', false);
+INSERT INTO birds VALUES('Spotted Towhee', 21.6, 26.7, Emberizidae, false);
+INSERT INTO birds VALUES ('American Robin', 25.5, 36.0, 'Turdidae', false);
+INSERT INTO birds VALUES ('Greater Koa Finch', 19.0, 24.0, 'Fringillidae', true);
+INSERT INTO birds VALUES ('Carolina Parakeet', 33.0, 55.8, 'Psittacidae', true);
+INSERT INTO birds VALUES ('Common Kestrel', 35.5, 73.5, 'Falconidae', false);
   ```
 
 

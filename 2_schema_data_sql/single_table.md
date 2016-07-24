@@ -58,9 +58,9 @@ SELECT round(AVG(wingspan), 1), MIN(wingspan), MAX(wingspan) FROM birds;
 8.
 ```sql
 CREATE TABLE menu_items (
-	item text,
-	prep_time integer,
- 	ingredient_cost numeric(4, 2),
+  item text,
+  prep_time integer,
+  ingredient_cost numeric(4, 2),
   sales integer,
   menu_price numeric(4, 2)
 );

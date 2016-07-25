@@ -1,5 +1,8 @@
-1.
+1
+```sql
 CREATE SEQUENCE counter;
+```
+
 
 2.
 ```sql

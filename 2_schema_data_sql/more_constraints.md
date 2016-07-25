@@ -12,7 +12,7 @@ ALTER TABLE films ALTER COLUMN duration SET NOT NULL;
 
 
 3.
-not null now appears in the constraints COLUMN
+not null now appears in the constraints column
 
 
 4.
@@ -40,6 +40,7 @@ ALTER TABLE films ADD CONSTRAINT title_length CHECK (length(title) >= 1);
 
 
 9.
+
 It appears as a CHECK constraint below the table
 ```Check constraints:
     "title_length" CHECK (length(title::text) >= 1)

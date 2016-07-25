@@ -1,5 +1,6 @@
 1. The result will be `NULL` or unknown
 
+
 2.
 ```sql
 ALTER TABLE employees ALTER COLUMN department SET DEFAULT 'unassigned';
@@ -51,6 +52,7 @@ UPDATE temperatures SET rainfall = rainfall * 0.039;
 ```sql
 ALTER TABLE temperatures RENAME TO weather;
 ```
+
 
 10. `database=# \d weather` This will "describe" the table
 

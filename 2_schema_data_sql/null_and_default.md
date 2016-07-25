@@ -1,4 +1,5 @@
-1. The result will be `NULL` or unknown
+1.
+The result will be `NULL` or unknown
 
 
 2.
@@ -54,6 +55,8 @@ ALTER TABLE temperatures RENAME TO weather;
 ```
 
 
-10. `database=# \d weather` This will "describe" the table
+10.
+`database=# \d weather` This will "describe" the table
 
-11. `$ pg_dump -d exercises -t weather --inserts > dump.sql`
+11.
+`$ pg_dump -d exercises -t weather --inserts > dump.sql`

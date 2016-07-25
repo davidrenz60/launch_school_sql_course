@@ -1,4 +1,5 @@
 1.
+
 a) This file will create a table named films in the specified database
 
 b) NOTICE:  table "films" does not exist, skipping - this means that a films table does not exist, so the existing table does not need to be deleted.

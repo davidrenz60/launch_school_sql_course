@@ -1,7 +1,8 @@
-1. create db residents
+1.
+`$ create db residents`
 
-2. psql -d residents < residents_with_data.sql
-
+2.
+`$ psql -d residents < residents_with_data.sql`
 
 3.
 ```sql

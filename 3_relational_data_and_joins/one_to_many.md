@@ -30,3 +30,17 @@ INSERT INTO calls ("when", duration, contact_id)
 ```sql
 ALTER TABLE contacts ADD CONSTRAINT number_unique UNIQUE(number);
 ```
+
+5.
+```sql
+INSERT INTO contacts (first_name, last_name, number)
+VALUES ('Dave', 'Renz', 7204890809);
+```
+`ERROR:  duplicate key value violates unique constraint "number_unique"`
+
+
+6.
+when is a reserved keyword
+
+
+7.
